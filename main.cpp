@@ -79,7 +79,7 @@ int main() {
             gv_file << "    layout=twopi\n";
             gv_file << "    ranksep=2\n";
             gv_file << "    node [shape=point]\n";
-            gv_file << "    edge [arrowhead=none penwidth=0.5]";
+            gv_file << "    edge [arrowhead=none penwidth=0.5]\n";
             gv_file << "    0 [shape=circle label=root]";
 
             for (auto &edge : edges) {
